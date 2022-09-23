@@ -1,0 +1,365 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10868986500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "I should be able to delete the item from the basket",
+        "description": "",
+        "id": "delete-button-functionality;i-should-be-able-to-delete-the-item-from-the-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 841857200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 183530900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 241607900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I mouse hover on the product and click",
+            "match": {
+              "location": "HomePageSteps.iMouseHoverOnTheProductAndClick()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Delete Button Functionality",
+    "description": "",
+    "id": "delete-button-functionality",
+    "keyword": "Feature",
+    "uri": "buy.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7399990400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "I should be able to see a store near West Palm Beach and should be able take a screen shot",
+        "description": "",
+        "id": "store-search-functionality;i-should-be-able-to-see-a-store-near-west-palm-beach-and-should-be-able-take-a-screen-shot",
+        "after": [
+          {
+            "result": {
+              "duration": 865439600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I click on Our stores link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on OK on Google popup screen",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I drag and drop the map of \"West Palm Beach\" to the centre of the screen",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I take a screenshot of map",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Store Search Functionality",
+    "description": "",
+    "id": "store-search-functionality",
+    "keyword": "Feature",
+    "uri": "ourstore.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6310600000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "I should be able to create a user account",
+        "description": "",
+        "id": "register-account-functionality;i-should-be-able-to-create-a-user-account",
+        "after": [
+          {
+            "result": {
+              "duration": 863422200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I click on the \"Sign in\" tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on \"Create an account\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on \"Email address\" field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I enter Email address \"ABCD@gmail.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I click on Create an account tab",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I enter my first name \"Vishal\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I enter my last name\"B\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I enter my Email address in personal information \"ABCD@gmail.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I enter password as \"London12345\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I enter my address as \"123, London Road, London, PO BOX 123\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I enter my city as \"London\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I select state from the dropdown menu as \"Alabama\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "I enter my Zip/Postal Code as \"123\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I enter my mobile phone number as \"123456789\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I enter my alias name as \"James Bond\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I click on Register button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I should be able to see my account name on top right",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register Account Functionality",
+    "description": "",
+    "id": "register-account-functionality",
+    "keyword": "Feature",
+    "uri": "register.feature"
+  }
+]
